@@ -1,5 +1,8 @@
 {
     "chromeWebSecurity": false,
-      "projectId": "gwi5wo"
+      "projectId": "gwi5wo",
+     "env": {
+    "recordkey": "b67756c0-94b4-4492-957d-69070c38c668"
+  }
   }
   
