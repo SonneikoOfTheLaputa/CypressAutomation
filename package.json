@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "runheadless":".node_modules/.bin/cypress run --headless",
-    "cy:run:chrome":".node_modules/.bin/cypress run --browser chrome"
+    "runheadless":"cypress run --headless",
+    "cy:run:chrome":"cypress run --browser chrome"
   },
   "author": "sri",
   "license": "ISC",
