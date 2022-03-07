@@ -1,8 +1,7 @@
 //const cypress = require("cypress")
 //const { it } = require("mocha")
 
-const cypress = require("cypress")
-const { it } = require("mocha")
+
 
 describe ('Firsttestsuite',function()
 {
@@ -34,12 +33,12 @@ describe ('Firsttestsuite',function()
 
    it('Makemytripwebpage',function()
    {
-       cy.visit('https://www.makemytrip.com/')
-       cy.get('body.desktop.in.webp:nth-child(2) div.bgGradient.webpSupport div.minContainer div:nth-child(1) div.widgetSection.appendBottom40.primaryTraveler div.makeFlex ul.fswTabs.latoBlack.greyText > li.selected:nth-child(1)').should('be.checked')
-       cy.get('body.desktop.in.webp:nth-child(2) div:nth-child(1) div.bgGradient.webpSupport div.minContainer div:nth-child(1) > div.widgetSection.appendBottom40.primaryTraveler').should('not.be.chcked')
-       cy.get('body.desktop.in.webp:nth-child(2) div.bgGradient.webpSupport div.minContainer div.widgetSection.appendBottom40.primaryTraveler div.makeFlex:nth-child(1) ul.fswTabs.latoBlack.greyText li.selected:nth-child(3) > span.tabsCircle.appendRight5').should(not.be.chcked)
-       cy.xpath('/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]').should(be.visible).clear().click()
-       cy.xpath('/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]').tyoe(M)
+    //    cy.visit('https://www.makemytrip.com/')
+    //    cy.get('body.desktop.in.webp:nth-child(2) div.bgGradient.webpSupport div.minContainer div:nth-child(1) div.widgetSection.appendBottom40.primaryTraveler div.makeFlex ul.fswTabs.latoBlack.greyText > li.selected:nth-child(1)').should('be.checked')
+    //    cy.get('body.desktop.in.webp:nth-child(2) div:nth-child(1) div.bgGradient.webpSupport div.minContainer div:nth-child(1) > div.widgetSection.appendBottom40.primaryTraveler').should('not.be.chcked')
+    //    cy.get('body.desktop.in.webp:nth-child(2) div.bgGradient.webpSupport div.minContainer div.widgetSection.appendBottom40.primaryTraveler div.makeFlex:nth-child(1) ul.fswTabs.latoBlack.greyText li.selected:nth-child(3) > span.tabsCircle.appendRight5').should(not.be.chcked)
+    //    cy.xpath('/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]').should(be.visible).clear().click()
+    //    cy.xpath('/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]').tyoe(M)
 
    }
    )

@@ -196,7 +196,7 @@ cy.xpath('//*[@id="content"]/div/div[1]/div[6]/div/div/div[5]/div/div[2]/div[4]/
 let stops='Non stop'; let oneplusstopscount=0;let a9=0,a8=0;let nonstopcount=0;let flights=[];
 ////*[@id="content"]/div/div[4]/div[1]/div[2]/div[10]/div/div[1]/div[1]/div[2]/div/div
 cy.xpath('//*[@id="content"]/div/div[1]/div[6]/div/div/div[6]/button/div').click({force:true})
-//cy.wait(25000)
+cy.wait(25000)
 cy.xpath('//*[@id="content"]/div/div[2]/div/div[1]/div[1]/div/div[2]/div[1]/span/div[1]/span[1]/span').click()
 cy.wait(5000)
 
